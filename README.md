@@ -1,5 +1,7 @@
 # aspnetcore-testing-sample
 
+[![Build Status](https://dev.azure.com/devprofr/demo/_apis/build/status/demo-aspnetcore-testing-CI?branchName=master)](https://dev.azure.com/devprofr/demo/_build/latest?definitionId=11&branchName=master)
+
 Example of testing an ASP.NET Core application.
 
 ## Client code packing

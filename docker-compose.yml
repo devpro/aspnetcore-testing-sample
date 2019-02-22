@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  webapp:
+    image: webapp
+    build:
+      context: ./src/WebApp
+      dockerfile: Dockerfile
+    depends_on:
+      - db
+
+  db:
+    image: mongo:latest
+    ports:
+      - 27017:27017
