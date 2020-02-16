@@ -13,6 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "src\Domain\Domain
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Solution Items", "0 - Solution Items", "{1814F3ED-95B4-49F6-9253-F8306FCA55E5}"
 	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
 		.editorconfig = .editorconfig
 		.azure\pipelines\ci.yml = .azure\pipelines\ci.yml
 		CodeCoverage.runsettings = CodeCoverage.runsettings
@@ -20,6 +21,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Solution Items", "0 - S
 		.azure\pipelines\pkg.yml = .azure\pipelines\pkg.yml
 		README.md = README.md
 	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Applications", "2 - Applications", "{DCA5A7C7-1DBD-415E-B1A7-BDD887DD4541}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Components", "1 - Components", "{25F69C22-6D2A-44F9-BCE7-833FEBA9723F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -46,6 +51,12 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6789FE8E-8177-4C07-B648-A0937864DB9B} = {DCA5A7C7-1DBD-415E-B1A7-BDD887DD4541}
+		{67EDCA0F-48BE-4FAC-9095-077978DE261B} = {DCA5A7C7-1DBD-415E-B1A7-BDD887DD4541}
+		{6203FB8F-2E85-4961-926C-43A75F2BADA8} = {25F69C22-6D2A-44F9-BCE7-833FEBA9723F}
+		{74CECF5E-60E0-49E3-AE2D-62B2719CFDF6} = {25F69C22-6D2A-44F9-BCE7-833FEBA9723F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5BFC15C2-5C66-40A4-B73A-4BB4F67567B3}

@@ -1,9 +1,9 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Devpro.AspNetCoreTestingSample.Dal.MongoDb.Repositories;
-using Devpro.AspNetCoreTestingSample.Domain.DocumentModels;
+using Devpro.AspNetCoreTestingSample.Domain.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Devpro.AspNetCoreTestingSample.WebApp.Controllers

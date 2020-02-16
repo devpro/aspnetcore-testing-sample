@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Devpro.AspNetCoreTestingSample.Domain.DocumentModels;
+using Devpro.AspNetCoreTestingSample.Domain.Models;
 using MongoDB.Bson;
 using MongoDB.Driver;
 

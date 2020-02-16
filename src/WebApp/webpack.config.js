@@ -6,6 +6,6 @@ module.exports = {
   },
   output: {
     path: path.join(__dirname, '/wwwroot/js/dist'),
-    filename: 'vendor.js'
+    filename: 'main.js'
   }
 };

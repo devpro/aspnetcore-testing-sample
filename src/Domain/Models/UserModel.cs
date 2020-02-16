@@ -1,4 +1,4 @@
-﻿namespace Devpro.AspNetCoreTestingSample.Domain.DocumentModels
+﻿namespace Devpro.AspNetCoreTestingSample.Domain.Models
 {
     public class UserModel
     {
