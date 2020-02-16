@@ -1,0 +1,8 @@
+# NPM packages
+/node_modules
+
+# Local development settings
+/appsettings.Development.json
+
+# Result of client file packing
+/wwwroot/dist
