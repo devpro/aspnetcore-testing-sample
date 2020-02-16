@@ -21,10 +21,10 @@ namespace Devpro.AspNetCoreTestingSample.Dal.MongoDb.Repositories
                 .ToListAsync();
 
             return entities.Select(x => new UserModel
-                {
-                    Id = x["_id"].AsObjectId.ToString(),
-                    FirstName = x["Name"].AsString,
-                })
+            {
+                Id = x["_id"].AsObjectId.ToString(),
+                FirstName = x["Name"].AsString,
+            })
                 .ToList();
         }
     }

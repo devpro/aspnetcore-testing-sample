@@ -1,11 +1,18 @@
 ﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using Devpro.AspNetCoreTestingSample.WebApp.Models;
+using Microsoft.Extensions.Logging;
 
 namespace Devpro.AspNetCoreTestingSample.WebApp.Controllers
 {
     public class HomeController : Controller
     {
+        private readonly ILogger<HomeController> _logger;
+
+        public HomeController(ILogger<HomeController> logger)
+        {
+            _logger = logger;
+        }
         public IActionResult Index()
         {
             return View();
