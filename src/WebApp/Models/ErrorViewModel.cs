@@ -1,4 +1,4 @@
-namespace Devpro.AspNetCoreTestingSample.WebApp.Models
+﻿namespace Devpro.AspNetCoreTestingSample.WebApp.Models
 {
     public class ErrorViewModel
     {
